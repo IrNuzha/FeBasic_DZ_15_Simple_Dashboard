@@ -1,0 +1,27 @@
+/* txt styles */
+
+@mixin txt ($font-weight, $font-size, $line-height, $color) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+}
+
+.h1 {
+    @include txt (800, 60px, 73px, $black-color);
+}
+
+.h2 {
+    @include txt (800, 50px, 61px, $black-color);
+}
+
+.h4 {
+    @include txt (400, 30px, 36px, $white-color);
+}
+
+.txt {
+    @include txt (800, 20px, 24px, $white-color)
+}
+
+
+/* end txt styles */

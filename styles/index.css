@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"); /* resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  display: block;
+}
+
+/* end resets */
+/* colors */
+/* end colors */
+/* txt styles */
+.h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  color: #390646;
+}
+
+.h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: #390646;
+}
+
+.h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.txt {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/* end txt styles */
+/* common styles */
+.section-container {
+  max-width: 1048px;
+  width: 100%;
+  background-color: #D4ADD9;
+}
+
+.container {
+  max-width: 1427px;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  padding: 23px 0 8px 0;
+}
+
+.main-container {
+  background-color: #D4ADD9;
+  border-radius: 39px;
+}
+
+.flex-direct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-direct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-direct {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  align-items: center;
+}
+
+.flexible {
+  flex-wrap: wrap;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.page {
+  background-color: #F5ECEC;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page-wrap {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 1024px;
+  height: 100%;
+}
+
+.menu {
+  background-color: #AE34CD;
+  max-width: 356px;
+  width: 100%;
+  border-radius: 39px;
+  min-height: 983px;
+}
+.menu__outside {
+  margin-bottom: 10px;
+}
+
+.menu-top__range {
+  margin: 43px 0 0 64px;
+  position: relative;
+}
+.menu-top__sun {
+  position: absolute;
+  left: -23px;
+  top: -25px;
+}
+
+.menu-links {
+  flex-direction: column;
+}
+.menu-links__outside {
+  margin: 98px 0 38px 0;
+}
+.menu-links__nav {
+  width: 100%;
+}
+.menu-links__wrap {
+  flex-direction: column;
+  min-height: 758px;
+  width: 100%;
+}
+.menu-links__item {
+  width: 100%;
+}
+.menu-links__item:hover {
+  background-color: #D4ADD9;
+  border-radius: 0px 80px 80px 0px;
+}
+.menu-links__content {
+  max-width: 234px;
+  width: 100%;
+}
+.menu-links__txt {
+  max-width: 144px;
+  width: 100%;
+}
+
+/* main */
+.main {
+  max-width: 1048px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 973px;
+}
+.main__outside {
+  margin: 0 10px 0 13px;
+}
+
+.balance-cont {
+  max-width: 1032px;
+  width: 100%;
+  min-height: 133px;
+}
+.balance-cont__box {
+  max-width: 499px;
+  width: 100%;
+  min-height: 133px;
+  height: 100%;
+  margin-left: 10px;
+}
+.balance-cont__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 129px;
+  margin-bottom: 4px;
+}
+
+.histogram__outside {
+  margin: 10px 0 10px;
+}
+.histogram-section {
+  min-height: 527px;
+  width: 100%;
+}
+.histogram-section__img {
+  max-width: 929px;
+  width: 100%;
+  height: 100%;
+  margin: 0 10px 0 10px;
+}
+.histogram-img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer-section__circle {
+  border: 20px solid #AE34CD;
+  border-radius: 50%;
+  min-height: 228px;
+  max-width: 235px;
+  overflow: hidden;
+}
+.footer-section__left {
+  max-width: 370px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 10px 10px 0;
+}
+.footer-section__left-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer-section__right {
+  max-width: 630px;
+  width: 100%;
+  height: 247px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.footer-section__right-box {
+  position: relative;
+  min-height: 247px;
+  overflow: hidden;
+}
+.footer-section__right-graphics {
+  position: absolute;
+  top: 40px;
+  left: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.footer-section__right-line_graph {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 176px;
+}
+
+.footer-container {
+  min-height: 247px;
+}
